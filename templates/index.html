@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puja Kerang Ajaib</title>
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/wakwaw.css') }}">
+</head>
+<body>
+    <h1>Selamat datang di Puja Kerang Ajaib</h1>
+    <h1>Pesan untuk kamu: {{ random_message }}</h1>
+
+    <div class="image-container">
+    <img src="https://i.pinimg.com/564x/df/66/a5/df66a5f717c95de56712ad26f00daa1e.jpg" alt="Gambar Patrick">
+    </div>
+
+    <form action="/get_message" method="GET" id="getForm">
+        <label for="getName">Masukkan nama untuk mendapatkan pesan:</label>
+        <input type="text" id="getName" name="nama_get"><br><br>
+        <input type="submit" value="Dapatkan pesan GET">
+    </form>
+    <form action="/post_message" method="POST" id="postForm">
+        <label for="postName">Masukkan nama untuk mendapatkan pesan:</label>
+        <input type="text" id="postName" name="nama_post"><br><br>
+        <input type="submit" value="Dapatkan pesan POST">
+    </form>
+</body>
+</html>

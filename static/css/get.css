@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+
+h1 {
+    color: limegreen; /* Warna hijau neon pada judul */
+    text-shadow: 2px 2px 4px #00ff00; /* Efek neon hijau */
+    }
+
+h2 {
+    color: limegreen; /* Warna hijau neon pada judul */
+    text-shadow: 2px 2px 4px #00ff00; /* Efek neon hijau */
+}
+
+p {
+    color: limegreen; /* Warna hijau neon pada paragraf */
+    text-shadow: 2px 2px 4px #00ff00; /* Efek neon hijau */
+    }
